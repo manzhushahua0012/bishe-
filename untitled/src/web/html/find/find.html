@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>找回密码</title>
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/find.css">
+  <meta name="content-type"; charset="UTF-8">
+</head>
+<body class="bg">
+<div id="bigBox">
+  <h1>找回密码</h1>
+  <form id="findform" action="../../../php/find.php" method="post">
+    <div class="inputBox">
+      <div class="inputText">
+        <input type="text" id="account" name="account" placeholder="请输入账号" >
+      </div>
+      <div class="inputText">
+        <input type="phone" id="phone" name="phone" placeholder="请输入手机号">
+      </div>
+      <div class="inputText">
+        <input type="password" id="password" name="password" placeholder="请输入新密码">
+      </div>
+      <div class="inputText">
+        <input type="password" id="password1" name="password1" placeholder="请重复输入密码">
+      </div>
+    </div>
+    <div>
+      <input type="submit" id="find" name="find" value="提交" class="loginButton m-left">
+    </div>
+  </form>
+</div>
+</body>
+</html>
+

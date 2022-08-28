@@ -1,0 +1,73 @@
+.bg{
+    background-image: url("https://img-blog.csdnimg.cn/20200112190342393.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzcyODkwMw==,size_16,color_FFFFFF,t_70");	/* 背景图片 */
+    background-size: cover;	/* 填充 */
+    background-repeat: no-repeat;	/* 不重复 */
+    background-attachment: fixed;	/* 固定 */
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+#bigBox
+{
+    margin: 0 auto;	/* login框剧中 */
+    margin-top: 170px; /* login框与顶部的距离 */
+    padding: 20px 50px;	/* login框内部的距离(内部与输入框和按钮的距离) */
+    background-color: #00000090;	/* login框背景颜色和透明度 */
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;	/* 圆角边 */
+    text-align: center;	/* 框内所有内容剧中 */
+
+}
+#bigBox h1
+{
+    color: white;	/* LOGIN字体颜色 */
+    font-family: "Comic Sans MS";
+}
+#bigBox .inputBox
+{
+    margin-top: 20px;	/* 输入框顶部与LOGIN标题的间距 */
+}
+#bigBox .inputBox .inputText
+{
+    margin-top: 20px;	/* 输入框之间的距离 */
+}
+#bigBox .inputBox .inputText input
+{
+    border: 0;	/* 删除输入框边框 */
+    padding: 10px 10px;	/* 输入框内的间距 */
+    border-bottom: 1px solid white;	/* 输入框白色下划线 */
+    background-color: #00000000;	/* 输入框透明 */
+    color: white;	/* 输入字体的颜色 */
+}
+#bigBox .loginButton
+{
+
+    margin-right: 30px;
+    margin-top: 40px;	/* 按钮顶部与输入框的距离 */
+    width: 100px;
+    height: 25px;
+    color: white;	/* 按钮字体颜色 */
+    border: 0; /* 删除按钮边框 */
+    border-radius: 20px;	/* 按钮圆角边 */
+    background-color: #666565;/* 按钮颜色 */
+}
+.m-left{
+    margin-left: 30px;
+
+}
+.register{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    word-spacing: 50px;
+}
+
+.lianjie{
+    position: absolute;
+    margin-bottom: 1000px;
+    right: 10px;
+    color: #ffffff;
+}

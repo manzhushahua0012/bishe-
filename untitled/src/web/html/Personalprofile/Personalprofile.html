@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>个人资料</title>
+    <meta name="theme-color" content="#ffc91d"/>
+    <link rel="icon" href="../img/favicon.ico" />
+    <link href="../css/kico.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/paul.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1"/>
+</head>
+<body>
+<!-- from表单提交 -->
+<form id="grform" action="../../../php/Personalprofile.php" method="post" >
+<aside class="sidebar">
+    <div class="avatar">
+        <img id="img" src="../img/me.jpg" title="Chien_W"/>
+    </div>
+    <nav class="nav">
+        <a href="../index/index.html">首页</a>
+        <a href="#info">资料</a>
+        <a href="#skills">技能</a>
+        <a href="#works">作品</a>
+        <a href="#story">经历</a>
+
+    </nav>
+</aside>
+<main>
+    <section id="info">
+        <div class="wrap">
+            <h2 class="title">个人资料</h2>
+            <div class="row">
+                <div class="col-l-4">
+                    <div>
+                         <p>姓名：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="name" name="name" value="周晓鑫"></p>
+                    </div>
+                    <div>
+                        <p>性别：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="sex" name="sex" value="男" ></p>
+                    </div>
+                    <div>
+                        <p>年龄：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="age" name="age" value="22" ></p>
+                    </div>
+                    <div>
+                        <p>毕业院校：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="graduateinstitutions" name="graduateinstitutions" value="哈尔滨华德学院" ></p>
+                    </div>
+                    <div>
+                        <p>学历：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="degree" name="degree" value="本科" ></p>
+                    </div>
+                </div>
+                <div class="col-l-4">
+                    <div>
+                        <p>身高（cm）：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="height" name="height" value="180" ></p>
+                    </div>
+                    <div>
+                        <p>QQ：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="QQ" name="QQ" value="488410400" ></p>
+                    </div>
+                    <div>
+                        <p>github：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="github" name="github" ></p>
+                    </div>
+                    <div>
+                        <p>博客：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="bk" name="bk" ></p>
+                    </div>
+                    <div>
+                        <p>邮箱：<input class="inputText" type="text" style="BORDER-TOP-STYLE: none;BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE:solid" id="email" name="email" value="48410400@qq.com" ></p>
+                    </div>
+                </div>
+                <div class="col-l-4">
+                    <p id="biography" name="biography">我是一个热爱钻研计算机技术的少年，从小开始对计算机有极大的兴趣。作为计算机专业的学生，我热爱我的专业并为其投入巨大的热情和精力。希望大家能和我一同热爱计算机！ </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="wrap">
+            <h2 class="title">掌握的技能</h2>
+            <div class="row scrollable">
+                <div class="col-s-6 col-m-4 center-fixed">
+                    <div class="skills-icon">
+                        <i class="fa fa-html5"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>HTML 5</h3>
+                        <p>熟悉 HTML5 网站的架构和开发</p>
+                    </div>
+                </div>
+                <div class="col-s-6 col-m-4 center-fixed">
+                    <div class="skills-icon">
+                        <i class="fa fa-css3"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>CSS3</h3>
+                        <p>熟悉使用 CSS3 写响应式网站、动画等</p>
+                    </div>
+                </div>
+                <div class="col-s-6 col-m-4 center-fixed">
+                    <div class="skills-icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>JavaScript</h3>
+                        <p>能使用 JS 制作简单的程序、交互与特效</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works">
+        <div class="wrap">
+            <h2 class="title">个人作品</h2>
+            <div class="row">
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="../img/works/web1.png"/>
+                        <p>个人博客</p>
+                    </div>
+                </div>
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="../img/works/web2.png"/>
+                        <p>博客主题</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="story">
+        <div class="wrap">
+            <h2 class="title">个人经历</h2>
+            <div class="row">
+                <div class="col-m-8">
+                    <ul class="timeline">
+                        <li>2019.09：步入大学 </li>
+                        <li>2019.12: 进入ACM实验室 </li>
+                        <li>2020.05: 参加CCPC竞赛 </li>
+                        <li>2020.08: 参加湖南省ACM竞赛 </li>
+                        <li>2020.11: 进入Maker-lot实验室</li>
+                        <li>2020.12: 建立首个个人博客 </li>
+                        <li>---</li>
+                    </ul>
+                </div>
+                <div class="col-m-4 center-fixed">
+                    <img src="../img/story.png"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2022 By <a href="#" title="Chien" target="_blank">Zhou</a>.</p>
+    </footer>
+</main>
+
+<script src="../../js/kico.js"></script>
+<script src="../../js/paul.js"></script>
+</form>
+</body>
+</html>

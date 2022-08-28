@@ -1,0 +1,49 @@
+@charset "utf-8";
+.box2_con{
+    width: 1000px;
+    margin: 0 auto;
+}
+.new_l{
+    width: 1000px;
+    height: 250px;
+    background: #ffffff;
+}
+.news_l1 {
+    width: 300px;
+    height: 250px;
+    background: url("../img/1.jpg") no-repeat;
+
+    background-size: 100% 100%;
+    /* background: rebeccapurple; */
+    float: left;
+    padding-left: 33.3px;
+}
+.news_list1 {
+
+    /* background: cornflowerblue; */
+    margin-top: 23px;
+}
+.news_list1 li {
+    width: 300px;
+    height: 25px;
+    padding-left: 14px;
+    /* margin-top: 23px;不能给li加哦 要给他爹，不然每个儿子顶部都会空出来*/
+}
+
+.news_list1 li a {
+    float: left;
+    font-size: 12px;
+    color: #565656;
+    line-height: 25px;
+}
+
+.news_title1 {
+    /* background: cadetblue; */
+    font-size: 18px;
+    color: #3f434f;
+    line-height: 18px;
+    padding-top: 36px;
+    text-align: center;
+}
+
+

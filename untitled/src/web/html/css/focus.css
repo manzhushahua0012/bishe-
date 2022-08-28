@@ -1,0 +1,103 @@
+/* focus */
+
+.lunbo {
+    width: 1000px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    padding: 0px;
+}
+#carousel{
+    margin: auto; /* 居中 */
+    width: 100%; /* 设置宽度 */
+    position: relative; /* 相对定位 */
+    overflow: hidden; /* 超出隐藏 */
+    height: 100%;
+}
+#carousel img{
+    width: 1000px; /* 设定大小 按比例缩放 */
+}
+#carousel > ul {
+    display: flex; /* 图片处理为一行 */
+    position: absolute; /* 设置绝对定位，实现相对于#carousel的绝对定位 */
+}
+#carousel > ul,
+#carousel > ul > li{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+
+#carousel > ul{
+    animation: switch 10s ease 1s infinite alternate; /* 设定动画播放 */
+}
+
+#carousel > ul:hover{
+    animation-play-state: paused; /* 暂停动画 */
+}
+
+@keyframes switch{ /* 制定动画规则 */
+    0%,13%{
+        left: 0;
+    }
+    27%,41%{
+        left: -1000px;
+    }
+    55%,69%{
+        left: -2000px;
+    }
+    83%,100% {
+        left: -3000px;
+    }
+}
+.unitBtn{
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.active{
+    background-color: #4C98F7;
+}
+.focus img {
+    width: 100%;
+}
+
+.focus ul {
+    overflow: hidden;
+    width: 500%;
+    margin-left: -100%;
+}
+
+.focus ul li {
+    float: left;
+    width: 20%;
+}
+
+.focus ol {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    margin: 0;
+}
+
+.focus ol li {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    list-style: none;
+    border-radius: 2px;
+    transition: all .3s;
+}
+
+.focus ol li.current {
+    width: 15px;
+}
+

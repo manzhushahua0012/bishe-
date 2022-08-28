@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <meta name="content-type"; charset="UTF-8">
+</head>
+<body class="bg">
+<div id="bigBox">
+    <h1>注册页面</h1>
+    <form action="../../../php/register.php" method="post">
+        <div class="inputBox">
+            <div class="inputText">
+                <input type="text" id="account" name="account" required="required" placeholder="请输入用户名">
+            </div>
+            <div class="inputText">
+                <input type="password" id="password" name="password" required="required" placeholder="请输入密码">
+            </div>
+            <div class="inputText">
+                <input type="text" id="phone" name="phone" required="required" placeholder="请输入手机号">
+            </div>
+            <div class="inputText">
+                <input type="text" id="depNumber" name="depNumber" required="required" placeholder="请输入部门编号">
+            </div>
+            <div class="inputText">
+                <input type="text" id="username" name="username" required="required" placeholder="请输入名字">
+            </div>
+            <br>
+        </div>
+        <div>
+            <input type="submit" id="register" name="register" value="注册" class="loginButton m-left">
+            <input type="reset" id="reset" name="reset" value="重置" class="loginButton">
+            <br>
+            <br>
+            <a href="../login/login.html" style="text-decoration: none; color: #eeeeee" >已有账号，去登录</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>
